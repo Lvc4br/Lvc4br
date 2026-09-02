@@ -2,6 +2,7 @@ import bpy
 import re
 
 from .procedural import create_variation
+from .validation import collect_scene_issues
 
 
 class TA_OT_validate_scene(bpy.types.Operator):
@@ -10,41 +11,14 @@ class TA_OT_validate_scene(bpy.types.Operator):
     bl_description = "Check object names, meshes, materials and transforms"
 
     def execute(self, context):
-        name_pattern = re.compile(r"^[A-Za-z][A-Za-z0-9_]*$")
-        invalid_names = []
-        empty_meshes = []
-        missing_materials = []
-        unapplied_scale = []
-
-        for obj in bpy.data.objects:
-            if not name_pattern.match(obj.name):
-                invalid_names.append(obj.name)
-
-            if obj.type == 'MESH':
-                if len(obj.data.vertices) == 0:
-                    empty_meshes.append(obj.name)
-                if len(obj.data.materials) == 0:
-                    missing_materials.append(obj.name)
-                if any(abs(value - 1.0) > 0.001 for value in obj.scale):
-                    unapplied_scale.append(obj.name)
-
-        total = (
-            len(invalid_names)
-            + len(empty_meshes)
-            + len(missing_materials)
-            + len(unapplied_scale)
-        )
-
-        if total:
-            self.report({'WARNING'}, f"Scene validation found {total} issue(s).")
+        issues = collect_scene_issues()
+        if issues:
+            self.report({'WARNING'}, f"Scene validation found {len(issues)} issue(s).")
             print("[TA Toolkit] Scene validation report")
-            print(f"  Naming issues: {len(invalid_names)}")
-            print(f"  Empty meshes: {len(empty_meshes)}")
-            print(f"  Missing materials: {len(missing_materials)}")
-            print(f"  Unapplied scale: {len(unapplied_scale)}")
+            for object_name, message in issues:
+                print(f"  - {object_name}: {message}")
         else:
             self.report({'INFO'}, "Scene validation passed with no detected issues.")
-
         return {'FINISHED'}
 
 
@@ -59,7 +33,6 @@ class TA_OT_rename_selected(bpy.types.Operator):
         selected = list(context.selected_objects)
         for index, obj in enumerate(selected, start=1):
             obj.name = f"{self.prefix}_{index:03d}"
-
         self.report({'INFO'}, f"Renamed {len(selected)} object(s).")
         return {'FINISHED'}
 
@@ -71,23 +44,64 @@ class TA_OT_generate_variations(bpy.types.Operator):
 
     def execute(self, context):
         scene = context.scene
-        create_variation(
-            count=scene.ta_variation_count,
-            seed=scene.ta_variation_seed,
-            spacing=scene.ta_variation_spacing,
-        )
-        self.report(
-            {'INFO'},
-            f"Generated {scene.ta_variation_count} variation(s) with seed {scene.ta_variation_seed}.",
-        )
+        create_variation(count=scene.ta_variation_count, seed=scene.ta_variation_seed, spacing=scene.ta_variation_spacing)
+        self.report({'INFO'}, f"Generated {scene.ta_variation_count} variation(s) with seed {scene.ta_variation_seed}.")
         return {'FINISHED'}
 
 
-CLASSES = (
-    TA_OT_validate_scene,
-    TA_OT_rename_selected,
-    TA_OT_generate_variations,
-)
+class TA_OT_organize_scene(bpy.types.Operator):
+    bl_idname = "ta_toolkit.organize_scene"
+    bl_label = "Organize Scene"
+    bl_description = "Move objects into standard Technical Art collections"
+
+    def execute(self, context):
+        scene = context.scene
+        collections = {}
+        for name in ("TA_Assets", "TA_Lights", "TA_Cameras", "TA_Other"):
+            collection = bpy.data.collections.get(name)
+            if collection is None:
+                collection = bpy.data.collections.new(name)
+                scene.collection.children.link(collection)
+            collections[name] = collection
+
+        for obj in list(scene.objects):
+            if obj.type == 'MESH':
+                target = collections["TA_Assets"]
+            elif obj.type == 'LIGHT':
+                target = collections["TA_Lights"]
+            elif obj.type == 'CAMERA':
+                target = collections["TA_Cameras"]
+            else:
+                target = collections["TA_Other"]
+            for old_collection in list(obj.users_collection):
+                old_collection.objects.unlink(obj)
+            target.objects.link(obj)
+
+        self.report({'INFO'}, "Scene organized into Technical Art collections.")
+        return {'FINISHED'}
+
+
+class TA_OT_prepare_export(bpy.types.Operator):
+    bl_idname = "ta_toolkit.prepare_export"
+    bl_label = "Prepare Selected for Export"
+    bl_description = "Apply rotation and scale to selected mesh objects"
+
+    def execute(self, context):
+        meshes = [obj for obj in context.selected_objects if obj.type == 'MESH']
+        if not meshes:
+            self.report({'WARNING'}, "Select at least one mesh object.")
+            return {'CANCELLED'}
+
+        bpy.ops.object.select_all(action='DESELECT')
+        for obj in meshes:
+            obj.select_set(True)
+        context.view_layer.objects.active = meshes[0]
+        bpy.ops.object.transform_apply(location=False, rotation=True, scale=True)
+        self.report({'INFO'}, f"Prepared {len(meshes)} mesh object(s) for export.")
+        return {'FINISHED'}
+
+
+CLASSES = (TA_OT_validate_scene, TA_OT_rename_selected, TA_OT_generate_variations, TA_OT_organize_scene, TA_OT_prepare_export)
 
 
 def register_operators():
