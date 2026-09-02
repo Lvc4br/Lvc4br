@@ -1,23 +1,49 @@
 import bpy
 import re
 
+from .procedural import create_variation
 
-class TA_OT_validate_names(bpy.types.Operator):
-    bl_idname = "ta_toolkit.validate_names"
-    bl_label = "Validate Object Names"
-    bl_description = "Report objects whose names do not follow the toolkit convention"
+
+class TA_OT_validate_scene(bpy.types.Operator):
+    bl_idname = "ta_toolkit.validate_scene"
+    bl_label = "Validate Scene"
+    bl_description = "Check object names, meshes, materials and transforms"
 
     def execute(self, context):
-        pattern = re.compile(r"^[A-Za-z][A-Za-z0-9_]*$")
-        invalid = [obj.name for obj in bpy.data.objects if not pattern.match(obj.name)]
+        name_pattern = re.compile(r"^[A-Za-z][A-Za-z0-9_]*$")
+        invalid_names = []
+        empty_meshes = []
+        missing_materials = []
+        unapplied_scale = []
 
-        if invalid:
-            message = f"{len(invalid)} object(s) need naming review."
-            self.report({'WARNING'}, message)
-            for name in invalid[:10]:
-                print(f"[TA Toolkit] Naming review: {name}")
+        for obj in bpy.data.objects:
+            if not name_pattern.match(obj.name):
+                invalid_names.append(obj.name)
+
+            if obj.type == 'MESH':
+                if len(obj.data.vertices) == 0:
+                    empty_meshes.append(obj.name)
+                if len(obj.data.materials) == 0:
+                    missing_materials.append(obj.name)
+                if any(abs(value - 1.0) > 0.001 for value in obj.scale):
+                    unapplied_scale.append(obj.name)
+
+        total = (
+            len(invalid_names)
+            + len(empty_meshes)
+            + len(missing_materials)
+            + len(unapplied_scale)
+        )
+
+        if total:
+            self.report({'WARNING'}, f"Scene validation found {total} issue(s).")
+            print("[TA Toolkit] Scene validation report")
+            print(f"  Naming issues: {len(invalid_names)}")
+            print(f"  Empty meshes: {len(empty_meshes)}")
+            print(f"  Missing materials: {len(missing_materials)}")
+            print(f"  Unapplied scale: {len(unapplied_scale)}")
         else:
-            self.report({'INFO'}, "All object names pass the basic validation.")
+            self.report({'INFO'}, "Scene validation passed with no detected issues.")
 
         return {'FINISHED'}
 
@@ -38,9 +64,29 @@ class TA_OT_rename_selected(bpy.types.Operator):
         return {'FINISHED'}
 
 
+class TA_OT_generate_variations(bpy.types.Operator):
+    bl_idname = "ta_toolkit.generate_variations"
+    bl_label = "Generate Variations"
+    bl_description = "Generate deterministic procedural geometry variations"
+
+    count: bpy.props.IntProperty(name="Count", default=8, min=1, max=100)
+    seed: bpy.props.IntProperty(name="Seed", default=42)
+    spacing: bpy.props.FloatProperty(name="Spacing", default=2.5, min=0.1)
+
+    def execute(self, context):
+        create_variation(
+            count=self.count,
+            seed=self.seed,
+            spacing=self.spacing,
+        )
+        self.report({'INFO'}, f"Generated {self.count} variation(s) with seed {self.seed}.")
+        return {'FINISHED'}
+
+
 CLASSES = (
-    TA_OT_validate_names,
+    TA_OT_validate_scene,
     TA_OT_rename_selected,
+    TA_OT_generate_variations,
 )
 
 
