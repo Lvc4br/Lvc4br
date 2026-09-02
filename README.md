@@ -1,58 +1,88 @@
-<h1 align="left">Luca Toniolo</h1>
+<div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Lvc4br/Lvc4br/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Lvc4br/Lvc4br/output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/Lvc4br/Lvc4br/output/pacman-contribution-graph.svg">
-</picture>
+# Luca Toniolo
 
-###
+### Technical Artist • 3D Artist • Developer
 
-<h1 align="left">About Me</h1>
+**3D Art + Programming + Interactive Experiences**
 
-###
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-111111?style=for-the-badge)](https://lvc4br.github.io/Web-Portfolio/)
 
-<p align="left">My name is Luca Toniolo, and I am passionate about digital art and technology. Since 2018, I have been dedicated to 3D modeling, starting my journey with Blender. Over time, I expanded my knowledge to Unity and Unreal, delving into the creation of environments and interactive experiences.<br>To complement my skills, I have been studying programming since 2023, including Python, HTML, CSS, and C#. My focus is to merge art and development to create immersive and innovative projects.</p>
-
-###
-
-<h2 align="left">Techs</h2>
-
-###
-
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="40" alt="typescript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="react logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" height="40" alt="jest logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/storybook/storybook-original.svg" height="40" alt="storybook logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/blender/blender-original.svg" height="40" alt="blender logo"  />
 </div>
 
-###
+---
 
-<div align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=Lvc4br&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dark&locale=en&hide_border=true&order=1" height="150" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Lvc4br&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dark&hide_border=true&order=2" height="150" alt="languages graph"  />
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Lvc4br&radius=16&theme=react&area=true&order=5" height="300" alt="activity-graph graph"  />
+## 👋 About Me
+
+I’m Luca Toniolo, a digital artist and developer focused on combining **3D art, real-time engines and programming** to build interactive experiences and technical solutions.
+
+I started working with **Blender in 2018**, developing experience in 3D modeling, materials, lighting, animation and rendering. Since 2023, I have been expanding into programming and web development, with a focus on **Python, C#, HTML, CSS and JavaScript**.
+
+My main goal is to work at the intersection of **art and technology**, especially in **Technical Art, 3D, Game Development and interactive applications**.
+
+---
+
+## 🎯 Current Focus
+
+- 🎨 Technical Art & 3D workflows
+- 🎮 Unity / Unreal Engine
+- 🐍 Python for automation and tools
+- 💻 C# and software development
+- 🌐 Front-end development
+- 🧩 Procedural and interactive systems
+
+---
+
+## 🛠️ Technologies
+
+### 3D & Real-Time
+
+![Blender](https://img.shields.io/badge/Blender-E87D0D?style=flat-square&logo=blender&logoColor=white)
+![Unity](https://img.shields.io/badge/Unity-000000?style=flat-square&logo=unity&logoColor=white)
+![Unreal Engine](https://img.shields.io/badge/Unreal%20Engine-313131?style=flat-square&logo=unrealengine&logoColor=white)
+
+### Programming & Web
+
+![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+
+---
+
+## ⭐ Featured Projects
+
+### 🌐 [Web Portfolio](https://lvc4br.github.io/Web-Portfolio/)
+Personal portfolio showcasing projects in **3D, programming, Motion Design, UX/UI and AI**.
+
+### 🖱️ [MouseTarget](https://github.com/Lvc4br/MouseTarget)
+Interactive web experiment exploring mouse-based effects and dynamic UI behavior.
+
+### 💻 [MicroSoftLearn](https://github.com/Lvc4br/MicroSoftLearn)
+C# learning repository documenting programming fundamentals and exercises.
+
+---
+
+## 📚 Learning in Public
+
+This GitHub is also a record of my development as a programmer. Some repositories contain exercises and experiments rather than finished products. I keep them public to document the progression from fundamentals toward larger projects.
+
+---
+
+## 📊 GitHub Activity
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=Lvc4br&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=transparent" height="165" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Lvc4br&layout=compact&langs_count=6&hide_border=true&theme=transparent" height="165" />
+
 </div>
 
-###
+---
 
-<div align="left">
-  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo"  />
-  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg" width="52" height="40" alt="instagram logo"  />
-  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/facebook/default.svg" width="52" height="40" alt="facebook logo"  />
-  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/behance/default.svg" width="52" height="40" alt="behance logo"  />
+<div align="center">
+
+**Building the bridge between art and code.**
+
 </div>
-
-###
