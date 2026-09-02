@@ -69,17 +69,17 @@ class TA_OT_generate_variations(bpy.types.Operator):
     bl_label = "Generate Variations"
     bl_description = "Generate deterministic procedural geometry variations"
 
-    count: bpy.props.IntProperty(name="Count", default=8, min=1, max=100)
-    seed: bpy.props.IntProperty(name="Seed", default=42)
-    spacing: bpy.props.FloatProperty(name="Spacing", default=2.5, min=0.1)
-
     def execute(self, context):
+        scene = context.scene
         create_variation(
-            count=self.count,
-            seed=self.seed,
-            spacing=self.spacing,
+            count=scene.ta_variation_count,
+            seed=scene.ta_variation_seed,
+            spacing=scene.ta_variation_spacing,
         )
-        self.report({'INFO'}, f"Generated {self.count} variation(s) with seed {self.seed}.")
+        self.report(
+            {'INFO'},
+            f"Generated {scene.ta_variation_count} variation(s) with seed {scene.ta_variation_seed}.",
+        )
         return {'FINISHED'}
 
 
