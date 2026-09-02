@@ -13,11 +13,18 @@ class TA_PT_toolkit(bpy.types.Panel):
 
         box = layout.box()
         box.label(text="Scene Validation")
-        box.operator("ta_toolkit.validate_names", icon='CHECKMARK')
+        box.operator("ta_toolkit.validate_scene", icon='CHECKMARK')
 
         box = layout.box()
         box.label(text="Naming")
         box.operator("ta_toolkit.rename_selected", icon='SORTALPHA')
+
+        box = layout.box()
+        box.label(text="Procedural Tools")
+        operator = box.operator("ta_toolkit.generate_variations", icon='MOD_ARRAY')
+        operator.count = 8
+        operator.seed = 42
+        operator.spacing = 2.5
 
 
 CLASSES = (TA_PT_toolkit,)
