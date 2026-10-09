@@ -2,119 +2,68 @@
 
 # Luca Toniolo
 
-### Technical Artist • 3D Artist • Developer
+### Developer • 3D Artist • Aspiring Technical Artist
 
-**Programming • 3D • Digital Production**
+Building digital experiences where **software, 3D and visual problem-solving** meet.
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-111111?style=for-the-badge)](http://64.181.168.160/portfolio/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-View%20Live-18181B?style=for-the-badge&logo=vercel&logoColor=white)](http://64.181.168.160/portfolio/)
+[![GitHub](https://img.shields.io/badge/GitHub-Projects-18181B?style=for-the-badge&logo=github)](https://github.com/Lvc4br)
 
 </div>
 
 ---
 
-## 👋 About Me
+## About
 
-I’m Luca Toniolo, a **Technical Artist, 3D Artist and Developer**. My background started in 3D production, and I am expanding that foundation through programming and software development.
+I’m a developer and 3D artist building my skills through practical projects, technical experiments and structured learning.
 
-I started working with **Blender in 2018** and have built experience in modeling, hard-surface and organic workflows, materials, lighting, simulations, animation and rendering. Since 2023, I have been studying and practicing **Python, C#, HTML, CSS and JavaScript**.
+- **3D:** Blender, modeling, materials, lighting, simulation, animation and rendering.
+- **Programming:** Python, C#, JavaScript, HTML and CSS.
+- **Current direction:** front-end development, software fundamentals and tools that can eventually support 3D workflows.
 
-This GitHub is primarily a place to document and demonstrate my **programming work, code, experiments and technical learning**. My 3D work is presented mainly through my visual portfolio platforms.
+I started learning Blender in 2018 and began studying programming in 2023. I use this GitHub to document projects, experiments and progress honestly: learning repositories are labeled as learning work, while finished projects are presented separately.
 
----
+## Featured project
 
-## 💻 Programming Focus
+### [React Portfolio](https://github.com/Lvc4br/Portfolio_React)
 
-- 🐍 **Python** — programming fundamentals, automation and future Blender scripting
-- 🧩 **C#** — software-development fundamentals and problem solving
-- 🌐 **HTML / CSS / JavaScript** — front-end development and interactive interfaces
-- 🔧 **Git / GitHub** — version control, repositories and documentation
+My current personal portfolio, built with React and Vite and hosted on Oracle Cloud.
 
-### Current Direction
+**[Open the live portfolio →](http://64.181.168.160/portfolio/)**
 
-My immediate goal is to strengthen my programming foundation through practical projects. As my Python skills mature, I plan to develop more advanced **Blender Python (`bpy`) tools** and eventually separate that work into dedicated repositories.
+## Selected repositories
 
-> **Technical Art is a direction of development, not a claim that every repository is already a Technical Art product.**
+| Repository | What it contains |
+|---|---|
+| [Portfolio_React](https://github.com/Lvc4br/Portfolio_React) | Current React/Vite portfolio source |
+| [NSA-teste](https://github.com/Lvc4br/NSA-teste) | NSA 2.0 React prototype archive |
+| [MouseTarget](https://github.com/Lvc4br/MouseTarget) | JavaScript and CSS interaction experiment |
+| [Web-Portfolio](https://github.com/Lvc4br/Web-Portfolio) | Earlier HTML/CSS/JavaScript portfolio |
+| [MicroSoftLearn](https://github.com/Lvc4br/MicroSoftLearn) | C# learning exercises |
+| [ETEC-Desenvolvimento-de-Sistemas](https://github.com/Lvc4br/ETEC-Desenvolvimento-de-Sistemas) | Academic programming exercises |
+| [Projetos-PW-ETEC](https://github.com/Lvc4br/Projetos-PW-ETEC) | Collaborative web-programming coursework |
+| [Technical-Art-Toolkit](https://github.com/Lvc4br/Lvc4br/tree/main/Technical-Art-Toolkit) | Early documentation and experiments for Blender-related tooling |
 
----
+## Technical interests
 
-## 🎨 3D Background
+- **Web development:** semantic HTML, responsive CSS, JavaScript, React and Vite.
+- **Software development:** Python, C#, debugging, data structures and maintainable code.
+- **3D and technical art:** Blender workflows, procedural tools and automation as learning goals.
 
-My 3D experience remains an important part of my profile, especially for a future Technical Artist path:
-
-- Blender
-- Hard-surface modeling
-- Organic modeling
-- Materials and texturing
-- Fluid simulations
-- Lighting and rendering
-- Animation and motion
-
-The visual proof of this work belongs primarily in my portfolio platforms rather than in this code-focused GitHub profile.
-
----
-
-## ⭐ Code & Development Projects
-
-### 🖱️ [MouseTarget](https://github.com/Lvc4br/MouseTarget)
-Front-end experiment using JavaScript, DOM events and CSS custom properties to create interactive mouse-driven effects.
-
-### 💻 [MicroSoftLearn](https://github.com/Lvc4br/MicroSoftLearn)
-C# study repository documenting my progression through programming and software-development fundamentals.
-
-### 🌐 [Portfolio_React](https://github.com/Lvc4br/Portfolio_React)
-My current personal portfolio, built with React and Vite and hosted on Oracle Cloud: [open the live portfolio](http://64.181.168.160/portfolio/).
-
-### 🗂️ [Web-Portfolio](https://github.com/Lvc4br/Web-Portfolio)
-An earlier portfolio project built with HTML5, CSS3 and JavaScript, kept as part of my development history.
-
-### 🧪 [webpage](https://github.com/Lvc4br/webpage)
-Front-end study project containing HTML/CSS/JavaScript experiments.
-
----
-
-## 🧰 Technical Art — Experimental
-
-### Technical-Art-Toolkit
-An early **Python + Blender** experiment inside this profile repository. It is being used to learn how programming can support 3D workflows through automation, validation, procedural generation and utilities.
-
-This project is intentionally treated as an **experimental learning project**, not yet as a finished professional toolkit.
-
-As my Python + Blender skills advance, more mature tools can become their own dedicated repositories with stronger documentation, demonstrations and real production use cases.
-
----
-
-## 📚 Learning Repositories
-
-### Aprendizado-Escolar
-Academic exercises and study material. Kept public as part of my learning history, but not presented as professional portfolio work.
-
-### MicroSoftLearn
-C# learning and experimentation. More complete applications will become separate projects as they mature.
-
----
-
-## 🧭 How This GitHub Is Organized
-
-**GitHub → code, programming, experiments and technical development**  
-**Portfolio platforms → visual 3D and digital-art presentation**
-
-I prefer to show progression honestly: study projects document the learning process, while mature projects can become dedicated portfolio repositories when they are ready.
-
----
-
-## 🛠️ Technologies
+## Tools and technologies
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white)
+![CSharp](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![Blender](https://img.shields.io/badge/Blender-E87D0D?style=flat-square&logo=blender&logoColor=white)
 
 ---
 
 <div align="center">
 
-**Code first. Build progressively. Connect technology with 3D.**
+**Learn by building. Document clearly. Improve continuously.**
 
 </div>
