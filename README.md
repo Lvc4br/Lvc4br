@@ -6,7 +6,7 @@
 
 **Programming • 3D • Digital Production**
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-111111?style=for-the-badge)](https://lvc4br.github.io/Web-Portfolio/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-111111?style=for-the-badge)](http://64.181.168.160/portfolio/)
 
 </div>
 
@@ -61,8 +61,11 @@ Front-end experiment using JavaScript, DOM events and CSS custom properties to c
 ### 💻 [MicroSoftLearn](https://github.com/Lvc4br/MicroSoftLearn)
 C# study repository documenting my progression through programming and software-development fundamentals.
 
-### 🌐 [Web-Portfolio](https://github.com/Lvc4br/Web-Portfolio)
-The source code for my personal portfolio, built with HTML5, CSS3 and JavaScript.
+### 🌐 [Portfolio_React](https://github.com/Lvc4br/Portfolio_React)
+My current personal portfolio, built with React and Vite and hosted on Oracle Cloud: [open the live portfolio](http://64.181.168.160/portfolio/).
+
+### 🗂️ [Web-Portfolio](https://github.com/Lvc4br/Web-Portfolio)
+An earlier portfolio project built with HTML5, CSS3 and JavaScript, kept as part of my development history.
 
 ### 🧪 [webpage](https://github.com/Lvc4br/webpage)
 Front-end study project containing HTML/CSS/JavaScript experiments.
