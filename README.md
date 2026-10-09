@@ -6,7 +6,7 @@
 
 Building digital experiences where **software, 3D and visual problem-solving** meet.
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-View%20Live-18181B?style=for-the-badge&logo=vercel&logoColor=white)](http://64.181.168.160/portfolio/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-View%20Live-18181B?style=for-the-badge&logoColor=white)](http://64.181.168.160/portfolio/)
 [![GitHub](https://img.shields.io/badge/GitHub-Projects-18181B?style=for-the-badge&logo=github)](https://github.com/Lvc4br)
 
 </div>
