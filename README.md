@@ -8,7 +8,7 @@
 
 [![GitHub](https://img.shields.io/badge/GitHub-Meus%20projetos-18181B?style=for-the-badge&logo=github)](https://github.com/Lvc4br)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Conectar-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/luca-toniolo)
-[![Portfólio](https://img.shields.io/badge/Portfólio-Acessar-6D28D9?style=for-the-badge)](http://64.181.168.160/portfolio/)
+[![Portfólio](https://img.shields.io/badge/Portfólio-Acessar-6D28D9?style=for-the-badge)](https://luca-toniolo.vercel.app/)
 
 </div>
 
@@ -38,12 +38,12 @@ A experiência com 3D desenvolveu minha atenção aos detalhes, experimentação
 
 ## 🚀 Projetos em destaque
 
-### [Portfólio em React](https://github.com/Lvc4br/Portfolio_React)
+### [Portfólio em React](https://github.com/Lvc4br/LV_Portfolio)
 Aplicação de portfólio desenvolvida com **React e Vite**, com navegação, componentes e apresentação de projetos.
 
 - **Tecnologias:** React, Vite, JavaScript, HTML e CSS.
 - **O que pratico:** estruturação de interface, componentes e organização de uma aplicação web.
-- [Ver código-fonte](https://github.com/Lvc4br/Portfolio_React) · [Abrir versão publicada](http://64.181.168.160/portfolio/)
+- [Ver código-fonte](https://github.com/Lvc4br/LV_Portfolio) · [Abrir versão publicada](https://luca-toniolo.vercel.app/)
 
 ### [NSA-teste — protótipo acadêmico](https://github.com/Lvc4br/NSA-teste)
 Protótipo independente inspirado na ideia de evoluir a experiência de um sistema acadêmico para estudantes e professores.
@@ -127,7 +127,7 @@ Prefiro mostrar progresso com código, documentação e evidências reais, sem d
 
 - [LinkedIn](https://linkedin.com/in/luca-toniolo)
 - [GitHub](https://github.com/Lvc4br)
-- [Portfólio web](http://64.181.168.160/portfolio/)
+- [Portfólio web](https://luca-toniolo.vercel.app/)
 - [Portfólio 3D — ArtStation](https://www.artstation.com/lvc4br)
 
 ---
