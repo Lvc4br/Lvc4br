@@ -2,11 +2,11 @@
 
 # Luca Toniolo
 
-### Estudante de Desenvolvimento de Sistemas | Desenvolvedor em formação | 3D Artist
+### Estudante de Desenvolvimento de Sistemas · Desenvolvedor em formação · 3D Artist
 
-Desenvolvimento web, projetos autorais e criação 3D — aprendendo na prática e evoluindo a cada projeto.
+Desenvolvimento web, software e criação 3D — projetos práticos, estudos técnicos e experimentação.
 
-[![Portfólio](https://img.shields.io/badge/Portfólio-Visitar-6D28D9?style=for-the-badge)](https://luca-toniolo.vercel.app/)
+[![Portfólio](https://img.shields.io/badge/Portfólio-Acessar-6D28D9?style=for-the-badge)](https://luca-toniolo.vercel.app/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Conectar-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/luca-toniolo)
 [![GitHub](https://img.shields.io/badge/GitHub-Repositórios-18181B?style=for-the-badge&logo=github)](https://github.com/Lvc4br)
 
@@ -16,72 +16,65 @@ Desenvolvimento web, projetos autorais e criação 3D — aprendendo na prática
 
 ## Sobre mim
 
-Sou estudante do curso Técnico em **Desenvolvimento de Sistemas na Etec de Itaquera**, com previsão de conclusão em 2027. Estou construindo minha experiência por meio de projetos acadêmicos, experimentos de programação e aplicações próprias.
+Sou estudante de **Desenvolvimento de Sistemas na Etec de Itaquera** e desenvolvo projetos acadêmicos, aplicações web e experimentos de programação. Também estudo Blender desde 2018, com interesse em modelagem, materiais, iluminação, animação e renderização.
 
-Busco uma oportunidade de **estágio em Desenvolvimento de Sistemas**, na qual possa contribuir, aprender com uma equipe e desenvolver soluções úteis. Tenho interesse em desenvolvimento web, Python, automação e, progressivamente, integração com APIs e inteligência artificial.
-
-Também estudo Blender desde 2018. A prática com modelagem, materiais, iluminação e renderização fortaleceu minha atenção aos detalhes, minha capacidade de experimentar e minha abordagem para resolver problemas — habilidades que procuro aplicar também ao desenvolvimento de software.
+Uso este perfil para documentar projetos reais e minha evolução técnica. Repositórios de estudo, protótipos e aplicações em desenvolvimento são identificados como tais, sem apresentar funcionalidades planejadas como se já estivessem prontas.
 
 ## Projetos em destaque
 
-### [LV Portfolio — 3D × Code](https://github.com/Lvc4br/LV_Portfolio)
-Meu portfólio principal, desenvolvido com React e Vite para reunir trabalhos de programação e criação 3D em um único lugar.
+### [LV_Portfolio — 3D × Code](https://github.com/Lvc4br/LV_Portfolio)
+Portfólio principal em React e Vite para apresentar projetos de programação, web design e 3D.
+- **Stack:** React, Vite, JavaScript e CSS.
+- **Inclui:** galerias e páginas de projetos, formulário de contato e integração de analytics.
+- **Site:** [luca-toniolo.vercel.app](https://luca-toniolo.vercel.app/)
 
-- **Tecnologias:** React, Vite, JavaScript e CSS.
-- **Prática:** componentes, navegação, organização de conteúdo e apresentação de projetos.
-- **Links:** [Acessar o site](https://luca-toniolo.vercel.app/) · [Ver código](https://github.com/Lvc4br/LV_Portfolio)
+### [Nexo Analytics](https://github.com/Lvc4br/nexo-analytics)
+Painel privado de analytics com dashboard React/Vite, API Python/FastAPI e tracker JavaScript próprio. Combina métricas agregadas da Vercel com eventos próprios, mantendo as fontes separadas.
 
-### [NSA 2.0 — protótipo acadêmico](https://github.com/Lvc4br/NSA-teste)
-Protótipo independente de interface para um portal acadêmico, explorando experiências para estudantes e professores.
+### [NSA-teste — NSA 2.0](https://github.com/Lvc4br/NSA-teste)
+Protótipo acadêmico de interface para um portal escolar, construído com React e Vite. Os perfis de aluno e professor são demonstrativos; não há autenticação real nem integração oficial com a Etec.
 
-- **Tecnologias:** React, Vite e JavaScript.
-- **Prática:** estrutura de interface, navegação e organização de uma aplicação.
-- **Status:** demonstração acadêmica; não possui autenticação real, persistência acadêmica ou integração oficial com a Etec/NSA.
+### [Java-Lab](https://github.com/Lvc4br/Java-Lab)
+Biblioteca web para consultar, editar e executar exercícios Java do repositório [ETEC-Desenvolvimento-de-Sistemas](https://github.com/Lvc4br/ETEC-Desenvolvimento-de-Sistemas). A execução usa o serviço externo Judge0 CE.
 
 ### [MouseTarget](https://github.com/Lvc4br/MouseTarget)
-Experimento front-end com cartões interativos e efeitos visuais controlados pela posição do mouse.
+Experimento de front-end com cartões interativos, eventos de mouse e efeitos visuais controlados por JavaScript e variáveis CSS.
 
-- **Tecnologias:** HTML, CSS e JavaScript.
-- **Prática:** eventos do DOM, variáveis CSS e interações de interface.
+### [Projetos-PW-ETEC](https://github.com/Lvc4br/Projetos-PW-ETEC)
+Atividades e projetos colaborativos da disciplina de Programação Web, com HTML, CSS e JavaScript. O conteúdo é acadêmico e pode ter diferentes níveis de conclusão.
 
-### [Projetos de Programação Web — Etec](https://github.com/Lvc4br/Projetos-PW-ETEC)
-Repositório de projetos acadêmicos e colaborativos de desenvolvimento web, incluindo uma sorveteria publicada para fins de estudo.
+### [ETEC — Desenvolvimento de Sistemas](https://github.com/Lvc4br/ETEC-Desenvolvimento-de-Sistemas)
+Exercícios acadêmicos de programação, incluindo fundamentos de Java, organizados para registrar o progresso no curso técnico.
 
-- **Prática:** construção de páginas, trabalho em equipe e publicação de um projeto educacional.
-- **Demonstração:** [Sorveteria](http://64.181.168.160/sorveteria/)
+### [MicroSoftLearn](https://github.com/Lvc4br/MicroSoftLearn)
+Exercícios e experimentos de aprendizagem em C# e fundamentos de desenvolvimento de software.
 
-### [Exercícios — Desenvolvimento de Sistemas](https://github.com/Lvc4br/ETEC-Desenvolvimento-de-Sistemas)
-Repositório de atividades e exercícios da formação técnica, usado para registrar a evolução dos fundamentos de programação.
+### [Biblioteca Blender](https://github.com/Lvc4br/Biblioteca-Blender)
+Repositório privado para organizar e versionar arquivos e projetos 3D desenvolvidos no Blender.
 
-### [Technical Art Toolkit](https://github.com/Lvc4br/Lvc4br/tree/main/Technical-Art-Toolkit)
-Iniciativa em fase inicial que explora ferramentas e automações para Blender com Python. O objetivo é desenvolver ideias em ferramentas documentadas e reproduzíveis.
+### Outros repositórios
+- [Web-Portfolio-2025](https://github.com/Lvc4br/Web-Portfolio-2025) — protótipo anterior do portfólio.
+- [webpage](https://github.com/Lvc4br/webpage) — exercícios e experimentos básicos de front-end.
+- [Aprendizado-Escolar-2025](https://github.com/Lvc4br/Aprendizado-Escolar-2025) — atividades e materiais de estudo.
+- [mobile](https://github.com/Lvc4br/mobile) — anotações e testes relacionados ao uso do editor Spck em dispositivos móveis.
 
-## Tecnologias e áreas de estudo
+## Tecnologias e interesses
 
-**Desenvolvimento**
-- JavaScript, React, Vite, HTML e CSS
-- Python e fundamentos de automação
-- C# e Java em contexto de aprendizagem
-- SQL e fundamentos de banco de dados
-- Git e GitHub
+- **Web:** HTML, CSS, JavaScript, React e Vite.
+- **Programação:** Python, Java e C# em diferentes etapas de estudo.
+- **Dados e ferramentas:** SQL, APIs, Git e GitHub.
+- **3D:** Blender, modelagem, materiais, iluminação, simulação, animação e renderização.
 
-**3D e criação técnica**
-- Blender: modelagem hard-surface e orgânica
-- Materiais, iluminação, simulação, animação e renderização
-- Exploração de Python para ferramentas e fluxos de trabalho no Blender
-
-> As tecnologias listadas representam uma combinação de prática em projetos e estudos em andamento. Estou trabalhando para ampliar a profundidade técnica, a cobertura de testes e a qualidade das aplicações.
+As tecnologias representam uma combinação de prática em projetos e estudos em andamento, não uma declaração de domínio avançado em todas elas.
 
 ## Formação
 
-- **Técnico em Desenvolvimento de Sistemas — Etec de Itaquera**  
-  Previsão de conclusão: 2027.
-- **Formação técnica integrada ao Ensino Médio — E.E. Prof. Francisco de Assis Pires Corrêa**  
-  Concluída em 2025.
+- **Técnico em Desenvolvimento de Sistemas — Etec de Itaquera** (em andamento; previsão de conclusão em 2027).
+- **Ensino Médio** — concluído.
 
-## Portfólio 3D e contato
+## Portfólios e contato
 
-- [Portfólio web — programação e 3D](https://luca-toniolo.vercel.app/)
+- [Portfólio web](https://luca-toniolo.vercel.app/)
 - [ArtStation](https://www.artstation.com/lvc4br)
 - [Behance](https://www.behance.net/Toniolo_Luca)
 - [The Rookies](https://therookies.co/u/Lvc4br)
