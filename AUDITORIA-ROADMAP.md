@@ -87,3 +87,11 @@ Não aumentar a nota apenas por adicionar badges ou documentação. Reavaliar co
 - [ ] É possível explicar as principais decisões técnicas e o que foi feito pessoalmente.
 
 A nota geral é uma estimativa qualitativa para orientar melhorias, não uma certificação nem uma previsão de contratação.
+
+## Entrega verificada — 29/10/2026
+
+- [x] **LV Portfolio:** o loader inicial respeita a preferência de acessibilidade `prefers-reduced-motion`, concluindo sem executar a animação quando a pessoa prefere movimento reduzido.
+- [x] **Teste automatizado:** adicionado teste para a preferência de movimento reduzido e outro para a limpeza do `requestAnimationFrame` ao desmontar o componente.
+- [x] **CI do LV Portfolio:** lint, testes e build de produção passaram no workflow [40809280001](https://github.com/Lvc4br/LV_Portfolio/actions/runs/40809280001).
+
+Essa entrega cobre o comportamento do loader. Ainda não representa uma validação visual completa do site em navegadores reais ou dispositivos móveis.
