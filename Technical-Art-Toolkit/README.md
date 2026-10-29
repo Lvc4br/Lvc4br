@@ -12,6 +12,18 @@ Os relatórios são apresentados na interface do Blender e/ou no console. A vali
 
 ## Arquitetura
 
+## Arquitetura
+
+```mermaid
+flowchart TD
+    A[Blender UI] --> B[ui.py]
+    B --> C[operators.py]
+    C --> D[procedural.py]
+    C --> E[Scene validation and rename operations]
+    F[__init__.py] --> B
+    F --> C
+```
+
 ```text
 Technical-Art-Toolkit/
 ├── README.md
