@@ -36,6 +36,7 @@ Estes projetos representam melhor as áreas que estou desenvolvendo. Os estados 
 - **Destaque técnico:** navegação por rotas, catálogo de projetos, componentes reutilizáveis e integrações de analytics configuráveis.
 - **Qualidade:** testes, lint, build e workflow de CI.
 - **Demonstração:** [luca-toniolo.vercel.app](https://luca-toniolo.vercel.app/).
+- **CI:** [![CI — LV Portfolio](https://github.com/Lvc4br/LV_Portfolio/actions/workflows/ci.yml/badge.svg)](https://github.com/Lvc4br/LV_Portfolio/actions/workflows/ci.yml).
 
 ### 2. [Java Lab](https://github.com/Lvc4br/Java-Lab)
 
@@ -45,6 +46,7 @@ Estes projetos representam melhor as áreas que estou desenvolvendo. Os estados 
 - **Destaque técnico:** catálogo gerado a partir dos exercícios, separação entre editor e executor e integração com o serviço externo Judge0 CE.
 - **Qualidade:** testes automatizados e CI.
 - **Limite conhecido:** a execução depende de um serviço externo; o código editado no navegador não altera os exercícios originais.
+- **CI:** [![CI — Java Lab](https://github.com/Lvc4br/Java-Lab/actions/workflows/ci.yml/badge.svg)](https://github.com/Lvc4br/Java-Lab/actions/workflows/ci.yml).
 
 ### 3. [Nexo Analytics](https://github.com/Lvc4br/nexo-analytics)
 
@@ -54,6 +56,7 @@ Estes projetos representam melhor as áreas que estou desenvolvendo. Os estados 
 - **Destaque técnico:** ingestão e validação de eventos, API, dashboard e documentação do modelo de dados e privacidade.
 - **Qualidade:** testes automatizados e CI.
 - **Estado:** projeto em evolução; implantação real exige configuração de produção, armazenamento persistente, proteção operacional e validação do ambiente.
+- **CI:** [![CI — Nexo Analytics](https://github.com/Lvc4br/nexo-analytics/actions/workflows/ci.yml/badge.svg)](https://github.com/Lvc4br/nexo-analytics/actions/workflows/ci.yml).
 
 ### 4. [Technical Art Toolkit](https://github.com/Lvc4br/Lvc4br/tree/main/Technical-Art-Toolkit)
 
@@ -62,6 +65,7 @@ Estes projetos representam melhor as áreas que estou desenvolvendo. Os estados 
 - **Destaque técnico:** utilitários para validação de cena, renomeação e geração procedural determinística.
 - **Qualidade:** verificação automatizada de compilação Python.
 - **Limite conhecido:** a compilação não substitui testes dentro de uma versão real do Blender; o projeto segue em desenvolvimento.
+- **CI:** [![CI — Technical Art Toolkit](https://github.com/Lvc4br/Lvc4br/actions/workflows/technical-art-toolkit.yml/badge.svg)](https://github.com/Lvc4br/Lvc4br/actions/workflows/technical-art-toolkit.yml).
 
 ## Outros projetos e estudos
 
