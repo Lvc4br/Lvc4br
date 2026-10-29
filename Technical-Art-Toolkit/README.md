@@ -12,8 +12,6 @@ Os relatórios são apresentados na interface do Blender e/ou no console. A vali
 
 ## Arquitetura
 
-## Arquitetura
-
 ```mermaid
 flowchart TD
     A[Blender UI] --> B[ui.py]
