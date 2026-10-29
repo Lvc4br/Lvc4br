@@ -1,0 +1,27 @@
+name: Technical Art Toolkit CI
+
+on:
+  push:
+    branches: [main, master]
+    paths:
+      - "Technical-Art-Toolkit/**"
+      - ".github/workflows/technical-art-toolkit.yml"
+  pull_request:
+    paths:
+      - "Technical-Art-Toolkit/**"
+      - ".github/workflows/technical-art-toolkit.yml"
+
+jobs:
+  python-syntax:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Compile add-on Python files
+        run: python -m compileall -q Technical-Art-Toolkit/blender_addon/lvc4br_ta_toolkit
