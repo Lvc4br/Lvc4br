@@ -20,6 +20,10 @@ Atualmente curso o Técnico em Desenvolvimento de Sistemas na Etec de Itaquera e
 
 Organizo os repositórios por finalidade. Nos projetos, procuro deixar explícitos o que funciona, como executar, quais testes existem e o que ainda é protótipo ou planejamento.
 
+## Plano de evolução
+
+Estou priorizando validação funcional, testes reproduzíveis e demonstrações dos projetos principais. Acompanhe as tarefas e os critérios de conclusão no [roadmap de qualidade do perfil](./AUDITORIA-ROADMAP.md).
+
 ## Projetos em destaque
 
 Estes projetos representam melhor as áreas que estou desenvolvendo. Os estados descritos abaixo são intencionais: protótipo, estudo e projeto em desenvolvimento não são apresentados como produto final.
