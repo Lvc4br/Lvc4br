@@ -1,111 +1,57 @@
 # Technical Art Toolkit — Blender + Python
 
-> A practical toolkit for improving and automating common 3D production workflows in Blender.
+Add-on experimental para automatizar tarefas repetitivas e validar cenas dentro do Blender. O projeto conecta scripting Python a ferramentas acessíveis pela interface do artista.
 
-## 🎯 Goal
+## Funcionalidades implementadas
 
-This project explores the **Technical Art** side of 3D production: using Python to reduce repetitive work, validate assets and scenes, generate controlled variations and create artist-facing utilities.
+- **Validação de cena:** identifica problemas comuns de nomenclatura, malhas vazias, malhas sem material e escala não aplicada.
+- **Renomeação:** aplica prefixo e numeração aos objetos selecionados.
+- **Variações procedurais:** gera geometria/objetos com parâmetros de quantidade, semente e espaçamento; a mesma semente permite repetir a sequência.
 
-## Current Features
+Os relatórios são apresentados na interface do Blender e/ou no console. A validação ajuda a detectar problemas conhecidos, mas não certifica que uma cena esteja pronta para produção.
 
-### Scene Validation
-
-Checks the current Blender scene for common production issues:
-
-- Inconsistent object names
-- Empty mesh objects
-- Meshes without assigned materials
-- Objects with unapplied scale
-
-The operator reports a compact summary in Blender and the console.
-
-### Naming
-
-Renames selected objects using a consistent prefix and numbered naming convention, useful for organizing batches of assets.
-
-### Procedural Variations
-
-Generates simple geometry variations using configurable parameters:
-
-- Number of variations
-- Seed
-- Spacing
-- Deterministic randomization
-
-The same seed produces the same variation sequence, making procedural results reproducible.
-
-## 🧠 Technical Concepts
-
-- Blender Python API (`bpy`)
-- Operators and panels
-- Custom Scene properties
-- Procedural generation
-- Deterministic randomization
-- Scene and asset validation
-- Naming conventions
-- Automation of repetitive production tasks
-- Artist-facing tool design
-- Modular Python package structure
-
-## 📁 Structure
+## Arquitetura
 
 ```text
 Technical-Art-Toolkit/
 ├── README.md
 ├── blender_addon/
 │   └── lvc4br_ta_toolkit/
-│       ├── __init__.py
-│       ├── operators.py
-│       ├── procedural.py
-│       ├── ui.py
+│       ├── __init__.py    # registro do add-on
+│       ├── operators.py   # ações disparadas pela interface
+│       ├── procedural.py  # lógica de geração
+│       ├── ui.py          # painel e controles
 │       └── examples/
 │           └── README.md
 └── examples/
 ```
 
-## 🚀 Installation
+A extensão usa a API interna `bpy` do Blender e não requer bibliotecas Python externas conforme a configuração documentada.
 
-1. Download or clone this repository.
-2. In Blender, open **Edit > Preferences > Add-ons**.
-3. Choose **Install...** and select the addon package/folder containing `lvc4br_ta_toolkit`.
-4. Enable **Lvc4br Technical Art Toolkit**.
-5. In the 3D Viewport, press `N` and open the **TA Toolkit** tab.
+## Instalação
 
-The project currently targets Blender 3.0+ and uses only Blender's built-in Python API.
+1. Baixe ou clone o repositório.
+2. No Blender, abra **Edit → Preferences → Add-ons**.
+3. Selecione **Install...** e escolha o pacote/pasta do add-on `lvc4br_ta_toolkit`.
+4. Ative **Lvc4br Technical Art Toolkit**.
+5. No 3D Viewport, pressione `N` e abra a aba **TA Toolkit**.
 
-## 🧪 Example Workflow
+O README original declara alvo Blender 3.0 ou superior. Verifique a versão utilizada no seu ambiente; compatibilidade com todas as versões não é garantida sem testes específicos.
 
-A typical test workflow is:
+## Fluxo de exemplo
 
-1. Create or import a few objects.
-2. Run **Validate Scene** to identify common issues.
-3. Use **Rename Selected** to standardize asset names.
-4. Use **Procedural Tools** to generate controlled variations.
-5. Repeat with different seeds to compare deterministic results.
+1. Crie ou importe objetos de teste.
+2. Execute **Validate Scene** e examine o relatório.
+3. Selecione objetos e use **Rename Selected**.
+4. Configure quantidade, seed e espaçamento em **Procedural Tools**.
+5. Gere variações e repita com outra seed.
 
-See [`blender_addon/lvc4br_ta_toolkit/examples/README.md`](blender_addon/lvc4br_ta_toolkit/examples/README.md) for step-by-step examples.
+Passo a passo: [examples/README.md](blender_addon/lvc4br_ta_toolkit/examples/README.md).
 
-## 🚧 Status
+## Estado e limitações
 
-**v0.2 — Work in progress.**
+**Versão documentada: v0.2 — em desenvolvimento.** O add-on demonstra três utilitários; não é uma suíte completa de produção. Ferramentas de coleções/cenas, materiais, preparação de exportação, relatórios avançados e cenas de demonstração permanecem como roadmap, não funcionalidades entregues.
 
-The current version establishes the addon architecture and demonstrates three practical Technical Art concepts. Future modules can expand the toolkit into a broader production utility set.
+Não há, neste README, alegação de cobertura automatizada de testes ou compatibilidade verificada em todas as versões do Blender.
 
-## 🔭 Roadmap
-
-- [x] Addon registration and UI
-- [x] Scene validation foundation
-- [x] Naming utility
-- [x] Deterministic procedural generation
-- [ ] Collection and scene organization tools
-- [ ] Material utilities
-- [ ] Export preparation helpers
-- [ ] Automated validation report UI
-- [ ] Example scenes and visual demonstrations
-- [ ] Technical Art case study
-
-## Direction
-
-The project demonstrates the kind of work I want to pursue as a **Technical Artist**: connecting 3D production knowledge with programming to build reliable, reusable workflows for artists and production teams.
-
-**Luca Toniolo — Lvc4br**
+**Autor:** Luca Toniolo — [@Lvc4br](https://github.com/Lvc4br)
