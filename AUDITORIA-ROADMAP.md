@@ -91,7 +91,12 @@ A nota geral é uma estimativa qualitativa para orientar melhorias, não uma cer
 ## Entrega verificada — 29/10/2026
 
 - [x] **LV Portfolio:** o loader inicial respeita a preferência de acessibilidade `prefers-reduced-motion`, concluindo sem executar a animação quando a pessoa prefere movimento reduzido.
-- [x] **Teste automatizado:** adicionado teste para a preferência de movimento reduzido e outro para a limpeza do `requestAnimationFrame` ao desmontar o componente.
-- [x] **CI do LV Portfolio:** lint, testes e build de produção passaram no workflow [40809280001](https://github.com/Lvc4br/LV_Portfolio/actions/runs/40809280001).
+- [x] **Teste automatizado do loader:** teste para a preferência de movimento reduzido e para a limpeza do `requestAnimationFrame` ao desmontar o componente.
+- [x] **Integridade do catálogo:** testes para IDs únicos, metadados, texto alternativo e ordenação, respeitando protótipos e projetos planejados.
+- [x] **CI do LV Portfolio:** lint, testes e build de produção passaram no workflow [40809730854](https://github.com/Lvc4br/LV_Portfolio/actions/runs/40809730854).
+- [x] **Documentação:** README do portfólio atualizado com status da CI e escopo real dos testes.
+- [x] **Manutenção automatizada:** configurado Dependabot mensal para dependências e GitHub Actions no LV Portfolio, Java Lab, Nexo Analytics, NSA-teste e MicroSoftLearn.
+- [x] **Privilégios de CI:** workflows dos cinco repositórios configurados com permissão de leitura de conteúdo e cancelamento de execuções antigas da mesma referência.
+- [x] **Perfil:** badges dinâmicos de CI adicionados aos quatro projetos em destaque.
 
-Essa entrega cobre o comportamento do loader. Ainda não representa uma validação visual completa do site em navegadores reais ou dispositivos móveis.
+As mudanças de Dependabot e permissões dos workflows foram enviadas, mas as novas execuções disparadas por esses commits ainda precisam concluir. O sucesso da execução citada confirma o código de testes do portfólio antes dessas alterações de infraestrutura; não representa validação visual em navegadores reais ou dispositivos móveis.
