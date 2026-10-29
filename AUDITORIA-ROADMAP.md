@@ -95,7 +95,7 @@ A nota geral é uma estimativa qualitativa para orientar melhorias, não uma cer
 - [x] **Integridade do catálogo:** testes para IDs únicos, metadados, texto alternativo e ordenação, respeitando protótipos e projetos planejados.
 - [x] **CI do LV Portfolio:** lint, testes e build de produção passaram no workflow [40809730854](https://github.com/Lvc4br/LV_Portfolio/actions/runs/40809730854).
 - [x] **Documentação:** README do portfólio atualizado com status da CI e escopo real dos testes.
-- [x] **Manutenção automatizada:** configurado Dependabot mensal para dependências e GitHub Actions no LV Portfolio, Java Lab, Nexo Analytics, NSA-teste e MicroSoftLearn.
+- [x] **Manutenção automatizada:** configurado Dependabot mensal para dependências e GitHub Actions no perfil Lvc4br, LV Portfolio, Java Lab, Nexo Analytics, NSA-teste e MicroSoftLearn.
 - [x] **Privilégios de CI:** workflows dos cinco repositórios configurados com permissão de leitura de conteúdo e cancelamento de execuções antigas da mesma referência.
 - [x] **Perfil:** badges dinâmicos de CI adicionados aos quatro projetos em destaque.
 
