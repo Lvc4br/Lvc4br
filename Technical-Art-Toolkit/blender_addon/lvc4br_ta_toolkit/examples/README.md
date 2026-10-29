@@ -1,30 +1,29 @@
-# Examples
+# Technical Art Toolkit — Examples
 
-These examples are intended to demonstrate the toolkit inside Blender.
+These short examples demonstrate the three utilities included in the Blender add-on. Use a test scene and save a copy before renaming objects or generating variations.
 
-## 1. Scene validation
+## Validate a scene
 
-1. Install and enable the addon.
-2. Open the 3D Viewport sidebar with `N`.
-3. Open the **TA Toolkit** tab.
-4. Click **Validate Scene**.
-5. Review the Blender report/console for naming, empty-mesh, material and transform issues.
+1. Install and enable the add-on.
+2. Open the 3D Viewport and press `N`.
+3. Select **TA Toolkit** and click **Validate Scene**.
+4. Review the report in Blender or its console.
 
-## 2. Procedural variations
+The check looks for known issues such as inconsistent names, empty meshes, missing materials and unapplied scale. It does not certify a scene as production-ready.
 
-1. Open **TA Toolkit** in the 3D Viewport sidebar.
-2. Under **Procedural Tools**, choose:
-   - **Count** — number of generated assets.
-   - **Seed** — deterministic variation seed.
-   - **Spacing** — distance between generated objects.
+## Generate procedural variations
+
+1. Open **TA Toolkit → Procedural Tools**.
+2. Set **Count**, **Seed** and **Spacing**.
 3. Click **Generate Variations**.
-4. Change the seed and generate again to produce a different controlled result.
+4. Repeat with the same seed to check reproducibility, or change the seed to create a different sequence.
 
-## 3. Naming workflow
+## Rename objects
 
-1. Select multiple objects.
-2. Open **TA Toolkit > Naming**.
-3. Click **Rename Selected**.
-4. Enter a prefix when Blender opens the operator panel.
+1. Select only the objects to change.
+2. Open **TA Toolkit → Naming**.
+3. Click **Rename Selected** and enter a prefix in the operator panel.
 
-The examples are intentionally small: the goal is to demonstrate reusable production concepts rather than create a large art asset.
+## Scope
+
+These examples describe manual workflows, not automated tests or finished portfolio scenes.
