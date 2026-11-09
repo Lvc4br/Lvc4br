@@ -91,6 +91,17 @@ Add-on experimental em Python para apoiar tarefas repetitivas dentro do Blender.
 - [Biblioteca Blender](https://github.com/Lvc4br/Biblioteca-Blender) — repositório privado destinado à organização de arquivos e recursos 3D.
 - [mobile](https://github.com/Lvc4br/mobile) — notas e experimentos iniciais com desenvolvimento mobile.
 
+## Organização acadêmica
+
+Também participo da **[Lab-Tecnico-Etec](https://github.com/Lab-Tecnico-Etec)**, uma organização voltada à organização e apresentação dos projetos de **TCC da Etec**.
+
+O espaço reúne os trabalhos e materiais desenvolvidos no contexto técnico, mantendo os projetos centralizados e acessíveis para consulta e acompanhamento.
+
+- **Organização:** [github.com/Lab-Tecnico-Etec](https://github.com/Lab-Tecnico-Etec)
+- **Repositório central:** [lab-central](https://github.com/Lab-Tecnico-Etec/lab-central)
+
+---
+
 ## Tecnologias e ferramentas
 
 **Desenvolvimento:** Python, JavaScript, HTML, CSS, React, Vite, Java e C#.
