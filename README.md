@@ -1,12 +1,12 @@
 <div align="center">
 
-<img src="assets/profile-banner.svg" alt="Luca Toniolo — desenvolvimento de sistemas com Python, web e IA, com Conhecimento em produção 3D" width="100%">
+<img src="assets/profile-banner.svg" alt="Luca Toniolo — Software, Creative Technology and 3D" width="100%">
 
 # Luca Toniolo
 
-**Desenvolvimento de sistemas com Python, web e IA, com Conhecimento em produção 3D**
+**Software Development · Creative Technology · 3D**
 
-Conecto desenvolvimento de software, automação com Python, uso prático de IA e criação 3D. Sou estudante de Técnico em Desenvolvimento de Sistemas na Etec de Itaquera e construo projetos para aprender, experimentar soluções e transformar ideias em aplicações e ferramentas documentadas. Busco uma oportunidade de estágio em desenvolvimento de software ou TI, compatível com minha formação técnica.
+Conecto desenvolvimento de software, tecnologia criativa e produção 3D. Sou estudante de Técnico em Desenvolvimento de Sistemas na Etec de Itaquera e desenvolvo aplicações web, ferramentas, protótipos e experiências visuais enquanto amplio minha prática com programação, automação e criação digital. Busco uma oportunidade de estágio em desenvolvimento de software ou TI, compatível com minha formação técnica.
 
 <sub>*Systems development student building with Python, React and AI, with a 3D production background. Looking for an internship in software development or IT.*</sub>
 
