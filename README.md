@@ -78,14 +78,6 @@ Projeto de telemetria para aplicações web, reunindo dashboard, API e SDK de co
 - **Foco:** ingestão e validação de eventos, API e painel administrativo.
 - **Estado:** em evolução; implantação de produção depende de armazenamento persistente, configuração segura e validação operacional.
 
-### 06 · [Technical Art Toolkit](https://github.com/Lvc4br/Lvc4br/tree/main/Technical-Art-Toolkit)
-
-Add-on experimental em Python para apoiar tarefas repetitivas dentro do Blender.
-
-- **Recursos:** validação de cenas, renomeação de objetos e geração procedural com parâmetros reproduzíveis.
-- **Arquitetura:** separação entre interface, operadores e lógica procedural usando a API `bpy`.
-- **Estado:** versão documentada 0.2, em desenvolvimento; testes dentro do Blender são necessários para validar compatibilidade.
-
 ---
 
 ## Outros projetos e estudos
