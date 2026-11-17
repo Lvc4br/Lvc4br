@@ -61,6 +61,7 @@ Portfólio web que reúne trabalhos de desenvolvimento, programação, design e 
 - **Engenharia:** navegação por rotas, catálogo orientado a dados, componentes reutilizáveis e integrações configuráveis.
 - **Qualidade:** testes automatizados, lint, build e integração contínua.
 - **Demonstração:** [luca-toniolo.vercel.app](https://luca-toniolo.vercel.app/).
+- **CI:** [![CI](https://github.com/Lvc4br/LV_Portfolio/actions/workflows/ci.yml/badge.svg)](https://github.com/Lvc4br/LV_Portfolio/actions/workflows/ci.yml)
 
 ### 04 · [Java Lab](https://github.com/Lvc4br/Java-Lab)
 
@@ -69,6 +70,7 @@ Biblioteca web para consultar, editar e executar cópias de exercícios Java.
 - **Stack:** JavaScript, HTML e CSS; Node.js nas ferramentas de desenvolvimento.
 - **Recursos:** catálogo de exercícios, editor no navegador e integração com Judge0 CE.
 - **Limites:** execução depende de serviço externo; não há terminal interativo nem persistência de submissões.
+- **CI:** [![CI](https://github.com/Lvc4br/Java-Lab/actions/workflows/ci.yml/badge.svg)](https://github.com/Lvc4br/Java-Lab/actions/workflows/ci.yml)
 
 ### 05 · [Nexo Analytics](https://github.com/Lvc4br/nexo-analytics)
 
@@ -77,6 +79,7 @@ Projeto de telemetria para aplicações web, reunindo dashboard, API e SDK de co
 - **Stack:** React, Vite, Python, FastAPI e JavaScript.
 - **Foco:** ingestão e validação de eventos, API e painel administrativo.
 - **Estado:** em evolução; implantação de produção depende de armazenamento persistente, configuração segura e validação operacional.
+- **CI:** [![CI](https://github.com/Lvc4br/nexo-analytics/actions/workflows/ci.yml/badge.svg)](https://github.com/Lvc4br/nexo-analytics/actions/workflows/ci.yml)
 
 ---
 
