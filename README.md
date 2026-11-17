@@ -96,7 +96,6 @@ Projeto de telemetria para aplicações web, reunindo dashboard, API e SDK de co
 
 - [Web Portfolio 2025](https://github.com/Lvc4br/Web-Portfolio-2025) e [webpage](https://github.com/Lvc4br/webpage) — versões e experimentos anteriores.
 - [Biblioteca Blender](https://github.com/Lvc4br/Biblioteca-Blender) — repositório privado para organização de arquivos e recursos 3D.
-- [mobile](https://github.com/Lvc4br/mobile) — notas e experimentos iniciais com desenvolvimento mobile.
 
 ## Organização acadêmica
 
