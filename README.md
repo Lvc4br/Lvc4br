@@ -6,15 +6,15 @@
 
 **Software Development · Creative Technology · 3D**
 
-Estudante de Técnico em Desenvolvimento de Sistemas na Etec de Itaquera. Desenvolvo aplicações, ferramentas e protótipos com foco em software, automação, qualidade e experiências digitais. Também mantenho minha trajetória em criação e produção 3D.
+Estudante de Técnico em Desenvolvimento de Sistemas na Etec de Itaquera. Desenvolvo aplicações, ferramentas e experiências digitais, unindo engenharia de software, automação, interfaces e criação 3D.
 
-Tenho interesse em oportunidades de estágio em **Desenvolvimento de Software, Engenharia de Software ou TI**, nas quais possa contribuir, aprender e evoluir tecnicamente.
+Tenho interesse em oportunidades de estágio e início de carreira em **Desenvolvimento de Software, Engenharia de Software e TI**. Gosto de transformar ideias em projetos concretos, com atenção à arquitetura, qualidade, usabilidade e documentação.
 
-<sub>Systems Development student interested in software engineering, automation, web technologies and creative 3D workflows.</sub>
+<sub>Systems Development student focused on software engineering, automation, web technologies and creative 3D workflows.</sub>
 
 **São Paulo, SP, Brasil** · Técnico em Desenvolvimento de Sistemas — Etec de Itaquera
 
-[![Portfólio](https://img.shields.io/badge/PORTFOLIO-8B7CFF?style=for-the-badge&logo=vercel&logoColor=white)](https://luca-toniolo.vercel.app/)
+[![Portfólio](https://img.shields.io/badge/PORTFOLIO-8B7CFF?style=for-the-badge&logo=githubpages&logoColor=white)](https://lvc4br.github.io/LV_Portfolio/)
 [![LinkedIn](https://img.shields.io/badge/LINKEDIN-161B22?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/luca-toniolo)
 [![ArtStation](https://img.shields.io/badge/ARTSTATION-161B22?style=for-the-badge&logo=artstation&logoColor=white)](https://www.artstation.com/lvc4br)
 
@@ -24,44 +24,56 @@ Tenho interesse em oportunidades de estágio em **Desenvolvimento de Software, E
 
 ## Sobre mim
 
-Minha atuação reúne três frentes que se complementam:
+Minha trajetória combina três áreas que se complementam:
 
 - **Desenvolvimento de software:** aplicações web, APIs, ferramentas, integração entre serviços e automação.
-- **Engenharia e qualidade:** arquitetura modular, documentação técnica, testes, integração contínua e preocupação com segurança e manutenção.
-- **Tecnologia criativa e 3D:** Blender, modelagem, visualização, materiais, iluminação e scripts para otimizar processos.
+- **Engenharia e qualidade:** arquitetura modular, documentação técnica, testes automatizados, integração contínua e atenção à segurança e manutenção.
+- **Tecnologia criativa e 3D:** Blender, modelagem, visualização, materiais, iluminação, renderização e scripts para otimizar fluxos de trabalho.
 
-Procuro construir projetos que resolvam problemas concretos. Valorizo código legível, documentação útil, testes reproduzíveis e transparência sobre o estágio de desenvolvimento. Faço distinção entre o que já está implementado, o que está em desenvolvimento e o que ainda é planejamento.
+Procuro construir soluções úteis e apresentar cada projeto com transparência sobre seu escopo e estágio de desenvolvimento. Valorizo código legível, decisões técnicas justificadas, testes reproduzíveis e aprendizado contínuo.
+
+## Portfólio
+
+### [Luca Toniolo — 3D × Code](https://lvc4br.github.io/LV_Portfolio/)
+
+Meu portfólio reúne projetos selecionados de **Software Development** e **Creative Technology**, conectando programação, design, experiências web e produção 3D.
+
+- **Stack:** React 19, Vite 8, JavaScript e CSS.
+- **Experiência:** navegação por rotas, páginas de projetos, galerias 3D e de código, temas e componentes reutilizáveis.
+- **Engenharia:** catálogo orientado a dados, testes automatizados, ESLint, build e GitHub Actions.
+- **Publicação:** GitHub Pages; arquitetura preparada para futura hospedagem principal na Oracle Cloud.
+- **Repositório:** [Lvc4br/LV_Portfolio](https://github.com/Lvc4br/LV_Portfolio).
+
+---
 
 ## Projetos em destaque
 
-### 01 · [SFI — Sistema Financeiro Inteligente](https://github.com/Lvc4br/SFI)
-
-Plataforma em desenvolvimento para educação financeira, gestão pessoal, planejamento de consumo e organização patrimonial.
-
-- **Stack planejada:** React, TypeScript, Tauri, React Native, Expo, Python, FastAPI e PostgreSQL (Neon).
-- **Arquitetura:** aplicações Web/Desktop/Mobile, backend centralizado, regras financeiras determinísticas e sincronização offline planejada.
-- **Escopo:** contas, movimentações, orçamento, dívidas, objetivos, relatórios, documentos fiscais e inteligência de consumo.
-- **Estado:** núcleo financeiro em evolução; ainda não pronto para produção. Consulte o README e o roadmap do projeto para o estado detalhado.
-
-### 02 · [Universal CI/CD](https://github.com/Lvc4br/Especifica-o-Universal-CI-CD-)
+### 01 · [Universal CI/CD](https://github.com/Lvc4br/Especifica-o-Universal-CI-CD-)
 
 Orquestrador modular de CI/CD desenvolvido para detectar projetos, planejar etapas e executar pipelines de diferentes ecossistemas.
 
 - **Tecnologia central:** PowerShell 7.2+.
-- **Ecossistemas:** adaptadores iniciais para Python, JavaScript/TypeScript, Go, Rust, C#/.NET, Java e outras linguagens.
+- **Ecossistemas:** adaptadores para Python, JavaScript/TypeScript, Go, Rust, C#/.NET, Java e outras linguagens.
 - **Recursos:** detecção, planejamento, execução com aprovação, timeout e relatórios JSON.
 - **Estado:** versão de desenvolvimento; há limitações e recursos ainda pendentes. Não indicado para produção neste estágio.
 - **Licença:** MIT.
 
-### 03 · [LV Portfolio — 3D × Code](https://github.com/Lvc4br/LV_Portfolio)
+### 02 · [SFI — Sistema Financeiro Inteligente](https://github.com/Lvc4br/SFI)
 
-Portfólio web que reúne trabalhos de desenvolvimento, programação, design e criação 3D.
+Plataforma em desenvolvimento para educação financeira, gestão pessoal, planejamento de consumo e organização patrimonial.
 
-- **Stack:** React, Vite, JavaScript e CSS.
-- **Engenharia:** navegação por rotas, catálogo orientado a dados, componentes reutilizáveis e integrações configuráveis.
-- **Qualidade:** testes automatizados, lint, build e integração contínua.
-- **Demonstração:** [luca-toniolo.vercel.app](https://luca-toniolo.vercel.app/).
-- **CI:** [![CI](https://github.com/Lvc4br/LV_Portfolio/actions/workflows/ci.yml/badge.svg)](https://github.com/Lvc4br/LV_Portfolio/actions/workflows/ci.yml)
+- **Stack planejada:** React, TypeScript, Tauri, React Native, Expo, Python, FastAPI e PostgreSQL (Neon).
+- **Arquitetura:** aplicações Web/Desktop/Mobile e backend centralizado.
+- **Estado:** núcleo financeiro em evolução; ainda não pronto para produção. Consulte o README e o roadmap para o estado detalhado.
+
+### 03 · [Nexo Analytics](https://github.com/Lvc4br/nexo-analytics)
+
+Projeto de telemetria para aplicações web, reunindo dashboard, API e SDK de coleta de eventos.
+
+- **Stack:** React, Vite, Python, FastAPI e JavaScript.
+- **Foco:** ingestão e validação de eventos, API e painel administrativo.
+- **Estado:** em evolução; implantação de produção depende de armazenamento persistente, configuração segura e validação operacional.
+- **CI:** [![CI](https://github.com/Lvc4br/nexo-analytics/actions/workflows/ci.yml/badge.svg)](https://github.com/Lvc4br/nexo-analytics/actions/workflows/ci.yml)
 
 ### 04 · [Java Lab](https://github.com/Lvc4br/Java-Lab)
 
@@ -71,15 +83,6 @@ Biblioteca web para consultar, editar e executar cópias de exercícios Java.
 - **Recursos:** catálogo de exercícios, editor no navegador e integração com Judge0 CE.
 - **Limites:** execução depende de serviço externo; não há terminal interativo nem persistência de submissões.
 - **CI:** [![CI](https://github.com/Lvc4br/Java-Lab/actions/workflows/ci.yml/badge.svg)](https://github.com/Lvc4br/Java-Lab/actions/workflows/ci.yml)
-
-### 05 · [Nexo Analytics](https://github.com/Lvc4br/nexo-analytics)
-
-Projeto de telemetria para aplicações web, reunindo dashboard, API e SDK de coleta de eventos.
-
-- **Stack:** React, Vite, Python, FastAPI e JavaScript.
-- **Foco:** ingestão e validação de eventos, API e painel administrativo.
-- **Estado:** em evolução; implantação de produção depende de armazenamento persistente, configuração segura e validação operacional.
-- **CI:** [![CI](https://github.com/Lvc4br/nexo-analytics/actions/workflows/ci.yml/badge.svg)](https://github.com/Lvc4br/nexo-analytics/actions/workflows/ci.yml)
 
 ---
 
@@ -95,12 +98,7 @@ Projeto de telemetria para aplicações web, reunindo dashboard, API e SDK de co
 | [NSA 2.0](https://github.com/Lvc4br/NSA-teste) | Protótipo de interface de portal acadêmico com dados simulados. |
 | [Aprendizado Escolar 2025](https://github.com/Lvc4br/Aprendizado-Escolar-2025) | Projeto acadêmico de interface web estática. |
 
-### Histórico e experimentos
-
-- [Web Portfolio 2025](https://github.com/Lvc4br/Web-Portfolio-2025) e [webpage](https://github.com/Lvc4br/webpage) — versões e experimentos anteriores.
-- [Biblioteca Blender](https://github.com/Lvc4br/Biblioteca-Blender) — repositório privado para organização de arquivos e recursos 3D.
-
-## Organização acadêmica
+### Organização acadêmica
 
 Também participo da **[Lab-Tecnico-Etec](https://github.com/Lab-Tecnico-Etec)**, organização voltada à centralização e apresentação de projetos de TCC da Etec.
 
@@ -131,9 +129,9 @@ Também participo da **[Lab-Tecnico-Etec](https://github.com/Lab-Tecnico-Etec)**
 - **Ensino Médio:** concluído.
 - **Idiomas:** português (nativo), inglês (B2) e italiano (A2).
 
-## Contato e portfólio
+## Contato
 
-- [Portfólio](https://luca-toniolo.vercel.app/)
+- [Portfólio — 3D × Code](https://lvc4br.github.io/LV_Portfolio/)
 - [LinkedIn](https://linkedin.com/in/luca-toniolo)
 - [ArtStation](https://www.artstation.com/lvc4br)
 - [Behance](https://www.behance.net/Toniolo_Luca)
