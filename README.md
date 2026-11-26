@@ -36,7 +36,7 @@ Procuro construir soluções úteis e apresentar cada projeto com transparência
 
 ### [Luca Toniolo — 3D × Code](https://lvc4br.github.io/LV_Portfolio/)
 
-Meu portfólio reúne projetos selecionados de **Software Development** e **Creative Technology**, conectando programação, design, experiências web e produção 3D.
+Meu portfólio reúne projetos selecionados de **Software Development** e **Creative Technology**, conectando programação, design, experiências web e produção 3D. A publicação no GitHub Pages está em configuração; enquanto isso, consulte o repositório para acompanhar o projeto.
 
 - **Stack:** React 19, Vite 8, JavaScript e CSS.
 - **Experiência:** navegação por rotas, páginas de projetos, galerias 3D e de código, temas e componentes reutilizáveis.
