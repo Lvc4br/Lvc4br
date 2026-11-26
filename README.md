@@ -14,7 +14,7 @@ Tenho interesse em oportunidades de estágio e início de carreira em **Desenvol
 
 **São Paulo, SP, Brasil** · Técnico em Desenvolvimento de Sistemas — Etec de Itaquera
 
-[![Portfólio](https://img.shields.io/badge/PORTFOLIO-8B7CFF?style=for-the-badge&logo=githubpages&logoColor=white)](https://lvc4br.github.io/LV_Portfolio/)
+[![Portfólio](https://img.shields.io/badge/PORTFOLIO-8B7CFF?style=for-the-badge&logo=githubpages&logoColor=white)](https://luca-toniolo.vercel.app/)
 [![LinkedIn](https://img.shields.io/badge/LINKEDIN-161B22?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/luca-toniolo)
 [![ArtStation](https://img.shields.io/badge/ARTSTATION-161B22?style=for-the-badge&logo=artstation&logoColor=white)](https://www.artstation.com/lvc4br)
 
