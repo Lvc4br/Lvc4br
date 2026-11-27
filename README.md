@@ -109,7 +109,7 @@ Também participo da **[Lab-Tecnico-Etec](https://github.com/Lab-Tecnico-Etec)**
 
 ## Tecnologias e ferramentas
 
-**Linguagens:** Python, JavaScript, TypeScript, Java, C# e SQL.
+**Linguagens:** Python, JavaScript, TypeScript, Java, C#, C++ e SQL.
 
 **Web e interfaces:** HTML, CSS, React, Vite e React Native.
 
